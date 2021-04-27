@@ -19,16 +19,6 @@ namespace Redington.Controllers
             this._probabilityCalculation = _probabilityCalculation;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         [HttpGet]
         public IActionResult Create()
         {
@@ -46,7 +36,7 @@ namespace Redington.Controllers
             probability.B = probabilityVM.B;
             probability.FunctionType = probabilityVM.FunctionType;
 
-            var result = _probabilityCalculation.Get(probability);
+            var result = _probabilityCalculation.Set(probability);
 
             return RedirectToAction("Result", new { result = result });
         }

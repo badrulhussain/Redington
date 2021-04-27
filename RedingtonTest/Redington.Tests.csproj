@@ -18,6 +18,7 @@
     <ProjectReference Include="..\Redington.BusinessLayer\Redington.BusinessLayer.csproj" />
     <ProjectReference Include="..\Redington.Models\Redington.Models.csproj" />
     <ProjectReference Include="..\Redington.Utility\Redington.Utility.csproj" />
+    <ProjectReference Include="..\Redington\Redington.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redington.DataAccess", "Red
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redington.Utility", "Redington.Utility\Redington.Utility.csproj", "{278A4EEF-8D7F-4652-B5F2-C2E3B3631755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redington", "Redington\Redington.csproj", "{ADB69505-611D-4D92-8F65-7803C47741CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redington", "Redington\Redington.csproj", "{ADB69505-611D-4D92-8F65-7803C47741CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedingtonTest", "RedingtonTest\RedingtonTest.csproj", "{E86B90BF-CB17-4709-8347-3446E1C27B47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redington.Tests", "RedingtonTest\Redington.Tests.csproj", "{E86B90BF-CB17-4709-8347-3446E1C27B47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
